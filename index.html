@@ -5,44 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>World_al sur Twitch</title>
     <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.1/main.min.css"
-    />
-    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.1/main.min.js"></script>
   </head>
   <body>
-    <header>
-      <h1>World_al</h1>
-      <img src="ton_avatar_twitch.jpg" alt="Avatar de World_al" />
-    </header>
-
     <main>
-      <h2>Prochains lives</h2>
-      <div id="calendar"></div>
-      <p>Rejoins-moi sur Twitch pour du contenu de qualité !</p>
-      <a href="https://www.twitch.tv/world_al" target="_blank"
-        >Suis-moi sur Twitch</a
-      >
+      <div class="card">
+          <h1>twitch.tv/world_al</h1>
+          <p>Vous allez etre redirigé vers mon Twitch <br>D'ici quelques secondes...</p>
+          <span class="loader"></span>
+      </div>
     </main>
     <body>
-        <div id='calendar'></div>
-            <script>
-            document.addEventListener('DOMContentLoaded', function() {
-                var calendarEl = document.getElementById('calendar');   
-    
-    
-                var calendar = new FullCalendar.Calendar(calendarEl, {
-                    initialView: 'dayGridMonth',
-                    events: function(fetchInfo, successCallback, failureCallback)   
-     {
-                        // ... (rest of the code as explained before)
-                    }
-                });
-    
-                calendar.render();
-            });
-        </script>
     <script src="script.js"></script>
   </body>
 </html>
