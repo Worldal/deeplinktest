@@ -1,10 +1,18 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
+    font-family: sans-serif;
     text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+#calendar {
+    height: 300px;
+    /* Ajuste la hauteur selon tes besoins */
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
 }
